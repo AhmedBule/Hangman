@@ -76,3 +76,34 @@ display: none;
     width: 20px;
 
 }
+
+.popup-container{
+    background-color: rgb(0, 0 , 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+   /* display: none; */
+   justify-content: center;
+   align-items: center;
+}
+
+.popup{
+    background: #2980b9;
+    border-radius: 5px;
+    box-shadow: 0 15px 10px 3px rgba(red, green, blue, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.popup button{
+    cursor: pointer;
+    background-color:white ;
+    color: #2980b9;
+    border: 0;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+}
